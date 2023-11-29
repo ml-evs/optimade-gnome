@@ -1,0 +1,3 @@
+[submodule "materials_discovery"]
+	path = materials_discovery
+	url = git@github.com:google-deepmind/materials_discovery
