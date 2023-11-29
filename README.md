@@ -6,4 +6,4 @@ Taking some data from https://github.com/google-deepmind/materials_discovery and
 
 The motivation is that this dataset can then be easily filtered by property and composition, returning structures that can be used by other labs (autonomous or otherwise), and also serendipitously, without needing to know which database to search in ahead of time.
 
-Will use https://github.com/Materials-Consortia/optimade-python-tools. 
+Will use https://github.com/Materials-Consortia/optimade-python-tools and https://github.com/materialscloud-org/archive-optimade-integration (to be released soon)
