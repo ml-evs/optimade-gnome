@@ -1,0 +1,24 @@
+config_version: 0.1.0
+
+database_description: >-
+  This API simply contains the data published for Google DeepMind's forays into materials discovery. More details can be found in the relevant papers.
+
+entries:
+  - entry_type: structures
+    entry_paths:
+      - file: data/gnome_data/by_id.zip
+        matches:
+          - by_id/*.CIF
+    property_paths:
+      - file: data/gnome_data/stable_materials_summary.csv
+    property_definitions:
+    - name: MaterialId
+      title: Internal ID
+      description: The material ID in the deepmind dataset
+      type: string
+      alias: material_id
+    - name: Formation Energy Per Atom
+      title: Formation energy per atom
+      description: The formation energy of the material
+      type: float
+      alias: formation_energy_per_atom
