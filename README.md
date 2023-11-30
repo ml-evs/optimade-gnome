@@ -17,7 +17,3 @@ Will use https://github.com/Materials-Consortia/optimade-python-tools and https:
   directly from static files, using the `optimade.yaml` file.
 - Use the `optimake` CLI to create an OPTIMADE-compliant JSONL file, then host
   it wherever you like...
-
-## Caveats
-
-- Unfortunately no convex hull distances were included directly in this dump, so they are not present here.
