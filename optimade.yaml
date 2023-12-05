@@ -16,14 +16,17 @@ entries:
       title: Gnome Internal ID
       description: The material ID in the deepmind dataset
       type: string
-      alias: MaterialId
+      aliases: 
+        - MaterialId
     - name: formation_energy_per_atom
       title: Formation energy per atom
       description: The formation energy of the material
       type: float
-      alias: Formation Energy Per Atom
+      aliases: 
+        - Formation Energy Per Atom
     - name: decomposition_energy_per_atom
       title: Decomposition energy per atom
       description: The decomposition energy of the material
       type: float
-      alias: Decomposition Energy Per Atom
+      aliases: 
+        - Decomposition Energy Per Atom
