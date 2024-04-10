@@ -1,0 +1,2 @@
+data/gnome_data/*.zip filter=lfs diff=lfs merge=lfs -text
+data/gnome_data/*.csv filter=lfs diff=lfs merge=lfs -text
