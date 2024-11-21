@@ -22,11 +22,29 @@ entries:
       title: Formation energy per atom
       description: The formation energy of the material
       type: float
-      aliases: 
+      aliases:
         - Formation Energy Per Atom
     - name: decomposition_energy_per_atom
       title: Decomposition energy per atom
       description: The decomposition energy of the material
       type: float
-      aliases: 
+      aliases:
         - Decomposition Energy Per Atom
+    - name: bandgap
+      title: Gnome band gap
+      description: The DFT band gap computed at the PBE level
+      type: float
+      aliases:
+        - Bandgap
+    - name: space_group_it_number
+      title: Space group number
+      description: The space group number of the crystal
+      type: integer
+      aliases:
+        - Space Group Number
+    - name: space_group_symbol_hermann_mauguin
+      title: Space group symbol
+      description: The space group symbol of the crystal
+      type: string
+      aliases:
+        - Space Group
