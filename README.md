@@ -1,12 +1,12 @@
 # optimade-gnome
 
-> ⚠️ Completely unofficial and separate from the deepmind work, use at your own risk, will probably only host it for a few months at most. ⚠️
+> ⚠️ Completely unofficial and separate from the deepmind work, use at your own risk. You should consult the data license on the deepmind repo for re-use limitations (CC-BY NC). ⚠️
 
-Taking some data from https://github.com/google-deepmind/materials_discovery and making it available as an OPTIMADE API, at least temporarily, at https://optimade-gnome.odbx.science. This only contains the PBE dataset for now.
+Taking some data from [google-deepmind/materials_discovery](https://github.com/google-deepmind/materials_discovery) and making it available as an [OPTIMADE API](http://optimade.org), at least temporarily, at https://optimade-gnome.odbx.science. This only contains the PBE dataset for now.
 
 The motivation is that this dataset can then be easily filtered by property and composition, returning structures that can be used by other labs (autonomous or otherwise), and also serendipitously, without needing to know which database to search in ahead of time.
 
-Uses https://github.com/Materials-Consortia/optimade-python-tools and https://github.com/materialscloud-org/archive-optimade-integration (to be released soon)
+Uses [optimade-python-tools](https://github.com/Materials-Consortia/optimade-python-tools) and [optimade-maker](https://github.com/materialscloud-org/optimade-maker).
 
 ## Process
 
